@@ -5,3 +5,49 @@
 * {
 	box-sizing: border-box;
 }
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+p {
+	text-align: center;
+	color: grey;
+	width: 80%;
+	margin: auto;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h2 {
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+.name,
+.main-nav {
+	font-family: "Fjalla One", sans-serif;
+}
+
+.logo {
+	width: 70%;
+}
+
+.container,
+.banner {
+	text-align: center;
+}
+
+.col {
+	padding-left: 1em;
+	padding-right: 1em;
+}
