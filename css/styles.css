@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 
 p {
@@ -35,7 +35,7 @@ img {
 
 .name,
 .main-nav {
-	font-family: "Fjalla One", sans-serif;
+	font-family: "Muli", sans-serif;
 }
 
 .logo {
