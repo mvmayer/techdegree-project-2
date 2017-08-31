@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 body {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Abel', sans-serif;  /* === google font 1 === */
 	text-align: center;
 }
 
@@ -49,12 +49,12 @@ img {
 }
 
 section {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Muli', sans-serif;    /* === google font 2 === */
 	padding: 80px 0 60px 0;
 }
 
 footer {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Muli', sans-serif;    /* === google font 2 === */
 	width: 90%;
 	border-top: lightgrey solid 1px;
 	margin: 0 auto;
@@ -64,7 +64,7 @@ footer {
 }
 .name,
 .main-nav {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Muli', sans-serif;    /* === google font 2 === */
 }
 
 .main-nav li {
@@ -78,8 +78,17 @@ footer {
 	padding-bottom: 12px;
 }
 
+.container {
+	padding-bottom: 20px;
+}
+
 .banner {
-	padding: 40px 0;
+	padding: 30px 0;
+	background-color: lightblue;
+}
+
+.bannerspeak {
+	color: black;	
 }
 
 .col {
