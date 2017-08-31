@@ -7,6 +7,7 @@
 }
 body {
   font-family: 'Abel', sans-serif;
+	text-align: center;
 }
 
 p {
@@ -14,9 +15,9 @@ p {
 	color: grey;
 	width: 80%;
 	margin: auto;
-	font-size: 1.1em;
+	font-size: 1.05em;
 	line-height: 1.35em;
-	width: 86%;
+	width: 90%;
 }
 
 ul {
@@ -29,30 +30,44 @@ a {
 }
 
 h1 {
-	font-size: 1.7em;
+	font-size: 1.5em;
 }
 
 h2 {
-	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.30em;
+	letter-spacing: .07em;
+	padding-top: 15px;
 }
 
 img {
 	max-width: 100%;
+	padding-top: 25px;
 }
 
+main {
+}
+
+.name {
+	padding: 20px 0;
+}
 .name,
 .main-nav {
 	font-family: "Muli", sans-serif;
 }
 
-.logo {
-	width: 70%;
+.main-nav li {
+	padding: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
-.container,
+.logo {
+	width: 70%;
+	padding-bottom: 12px;
+}
+
 .banner {
-	text-align: center;
+	padding: 40px 0;
 }
 
 .col {
