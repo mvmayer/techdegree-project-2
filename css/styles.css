@@ -29,6 +29,10 @@ a {
 	color: black;
 }
 
+a:hover {             /* ===== added hover state to links =====*/
+	color: #052EFE;
+}
+
 h1 {
 	font-size: 1.5em;
 }
