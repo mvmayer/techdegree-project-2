@@ -14,6 +14,9 @@ p {
 	color: grey;
 	width: 80%;
 	margin: auto;
+	font-size: 1.1em;
+	line-height: 1.35em;
+	width: 86%;
 }
 
 ul {
