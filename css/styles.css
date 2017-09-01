@@ -8,47 +8,51 @@
 body {
   font-family: 'Abel', sans-serif;  /* === google font 1 === */
 	text-align: center;
-}
-
-p {
-	text-align: center;
 	color: grey;
-	width: 80%;
-	margin: auto;
 	font-size: 1.05em;
 	line-height: 1.35em;
-	width: 90%;
 }
 
-ul {
-	list-style-type: none;
+header {
+	font-weight: bold;
+	padding: 20px 0;
 }
+/*header,
+footer {
+	background-color: lightblue;
+	color: black;
+}*/
 
 h1 {
 	font-size: 1.5em;
+	color: black;
 }
 
 h2 {
-	font-size: 1.30em;
+	font-size: 1.20em;
 	letter-spacing: .07em;
 	padding-top: 15px;
+	color: black;
 }
 
 img {
 	max-width: 100%;
 	padding-top: 25px;
 }
-
+.banner,
+main,
 section {
-	font-family: 'Muli', sans-serif;    /* === google font 2 === */
-	padding: 80px 0 60px 0;
+	width: 90%;
+	margin: 0 auto;
 }
 
-footer {
-	font-family: 'Muli', sans-serif;    /* === google font 2 === */
-	width: 90%;
-	border-top: lightgrey solid 1px;
-	margin: 0 auto;
+main {
+	padding: 20px 0 10px 0;
+}
+
+section {
+	border-bottom: lightgrey solid 1px;
+	padding: 40px 0;
 }
 
 /* ==== Link Styling ====*/
@@ -57,17 +61,22 @@ a {
 	color: black;
 }
 
-a:hover {             /* ===== added hover state to links =====*/
+a:hover {        /* ===== added hover state to links =====*/
 	color: #052EFE;
 }
 
 /* ==== Section Styling ==== */
+
 .name {
-	padding: 20px 0;
+	padding-bottom: 20px;
 }
+
 .name,
-.main-nav {
-	font-family: 'Muli', sans-serif;    /* === google font 2 === */
+.main-nav,
+section,
+footer {
+	font-family: 'Muli', sans-serif;
+	color: black;    /* === google font 2 === */
 }
 
 .main-nav li {
@@ -78,46 +87,102 @@ a:hover {             /* ===== added hover state to links =====*/
 
 .logo {
 	width: 70%;
-	padding-bottom: 12px;
-}
-
-.container {
-	padding-bottom: 20px;
-}
-
-.banner {
-	padding: 30px 0;
-	background-color: lightblue;
-}
-
-.bannerspeak {
-	color: black;
-}
-
-.col {
-	padding-left: 1em;
-	padding-right: 1em;
-}
-
-.phone {
-	padding: 30px 0 10px 0;
 }
 
 .footname {
 display: inline-block;
-margin-right: 50px;
+margin-right: 60px;
 font-size: 1em;
 }
 
 .footlist {
 	display: inline-block;
-	margin-left: 30px;
+	font-weight: bold;
 }
 
 .bigfoot {
 	display: none;
 }
 
-/* ======== Media Queries ======== */
+ /*======== Media Queries ======== */
 
-@media (min-width)
+@media (min-width: 768px) {
+
+	header {
+		padding: 40px 0 20px 0;
+	}
+	.main-nav li {
+		display: inline-block;
+	}
+
+/* ====================== */
+
+	.banner {
+		height: 220px;
+		padding: 15px 0;
+		font-size: 1.35em;
+		text-align: left;
+	}
+	.logo {
+		float: right;
+		width: 40%;
+		padding: 0;
+		margin-left: 3%;
+	}
+
+/* ======================  */
+
+	p {
+		padding: 0 20px;
+	}
+	.one,
+	.three,
+	.five {
+	float: left;
+	width: 48.5%;
+	}
+
+	.two,
+	.four,
+	.six {
+		float: right;
+		width: 48.5%;
+	}
+
+/* ========================== */
+
+	footer {
+		height: 100px;
+	}
+
+	.footname {
+		margin-right: 300px
+	}
+
+	.backtotop {
+		display: none;
+	}
+
+	.bigfoot {
+		display: inline-block;
+		padding: 10px;
+	}
+
+/*==================== Float Clearfix ========================*/
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+
+@media (min-width: 1024px) {
+
+	.name {
+		float: left;
+	}
+
+	.main-nav {
+		float: right;
+	}
+}
