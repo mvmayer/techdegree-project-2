@@ -184,6 +184,9 @@ font-size: 1em;
 		float: left;
 	}
 
+	.banner {
+		height: 290px;
+	}
 	.main-nav {
 		float: right;
 	}
@@ -192,4 +195,11 @@ font-size: 1em;
 		width: 90%;
 		margin: 0 auto;
 	}
+
+	.portfolio {
+		padding-bottom: 20px;
+	}
+
+
+
 }
