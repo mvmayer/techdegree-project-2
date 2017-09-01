@@ -39,6 +39,7 @@ img {
 	max-width: 100%;
 	padding-top: 25px;
 }
+
 .banner,
 main,
 section {
@@ -132,7 +133,7 @@ font-size: 1em;
 
 /* ======================  */
 
-	p {
+	main p {
 		padding: 0 20px;
 	}
 	.one,
@@ -179,10 +180,16 @@ font-size: 1em;
 @media (min-width: 1024px) {
 
 	.name {
+		padding: 13px 0;
 		float: left;
 	}
 
 	.main-nav {
 		float: right;
+	}
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
 	}
 }
