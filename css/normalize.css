@@ -29,6 +29,9 @@ body {
 /**
  * Add the correct display in IE 9-.
  */
+p {
+  margin: 0;
+}
 
 article,
 aside,
