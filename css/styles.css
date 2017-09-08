@@ -33,7 +33,7 @@ h2 {
 
 img {
 	max-width: 100%;
-	/*padding-top: 25px;*/
+	padding-top: 25px;
 }
 
 nav {
@@ -157,7 +157,7 @@ footer {
 	.three,
 	.five {
 	float: left;
-	width: 48%;
+	width: 49%;
 	height: 380px;
 	}
 
@@ -165,7 +165,7 @@ footer {
 	.four,
 	.six {
 		float: right;
-		width: 48%;
+		width: 49%;
 		height: 380px;
 	}
 
@@ -188,6 +188,9 @@ footer {
 		padding-left: 20px;
 	}
 
+	.contact {
+		padding-bottom: 30px;
+	}
 /*==================== Float Clearfix ========================*/
 
 	.clearfix::after {
@@ -201,6 +204,10 @@ footer {
 
 	body {
 		max-width: 1250px;
+	}
+
+	img {
+		padding-top: 0;
 	}
 	/*============= Header ====================*/
 	.name {
@@ -236,6 +243,7 @@ footer {
 	.three {
 		float: left;
 		width: 33.333%;
+		height: 360px;
 	}
 
 	.one {
@@ -255,6 +263,7 @@ footer {
 	.six {
 		float: left;
 		width: 33.333%;
+			height: 360px;
 	}
 
 	.four {
