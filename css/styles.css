@@ -73,6 +73,11 @@ a:hover {        /* ===== added hover state to links =====*/
 	padding-bottom: 20px;
 }
 
+.portfolio,
+.contact {
+	text-transform: uppercase;
+}
+
 .name,
 .main-nav,
 section,
@@ -166,6 +171,7 @@ footer {
 
 	section {
 		width: 63%;
+		margin-bottom: 30px;
 	}
 
 	.footname {
@@ -201,6 +207,10 @@ footer {
 
 	img {
 		padding-top: 0;
+	}
+
+	section {
+		padding-top: 20px;
 	}
 	/*============= Header ====================*/
 	.name {
